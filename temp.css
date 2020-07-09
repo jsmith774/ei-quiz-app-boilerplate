@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-Section {
+.group {
   display: flex;
   flex-direction: column;
   font-family: 'Balsamiq Sans', cursive;
+  align-items: center;
+  align-content: center;
 }
 
 .item {
@@ -10,11 +12,31 @@ Section {
   margin: 10px;
 }
 
-section button {
+header{
+  background-color: deepskyblue;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+h1 {
+  text-align: center;
+  
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: xx-large;
+}
+
+button {
   padding: 10px 16px;
   border: 1;
-  font-size: 20px;
+  font-size: 30px;
   width: 50%;
-  justify-self: center;
-  align-items: center;
 }
