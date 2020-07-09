@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-body{
+body {
   font-family: 'Balsamiq Sans', cursive;
 }
 
 .center {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
   align-content: center;
 }
@@ -15,18 +15,18 @@ body{
   margin: 10px;
 }
 
-header{
-  background-color: deepskyblue;
+header {
+  background-color: blue;
   margin-top: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 100px;
   padding-left: 100px;
 }
+
 h1 {
   text-align: center;
-  
-  
+  color: white;
 }
 
 h2 {
@@ -37,7 +37,7 @@ p {
   font-size: xx-large;
 }
 
-.border{
+.border {
   border: 3px solid black;
   padding: 30px;
 }

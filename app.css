@@ -6,6 +6,10 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body{font-family: 'Balsamiq Sans', cursive;}
+
 main {
   display: flex;
   flex-direction: column;
